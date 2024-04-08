@@ -1,6 +1,9 @@
 package creational.singelton;
+/**
+ * Creation Design Pattern: It provides various object creation mechanisms, which increase
+ * flexibility and reuse of existing code.
+ */
 
-import java.awt.desktop.SystemEventListener;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.stream.IntStream;
