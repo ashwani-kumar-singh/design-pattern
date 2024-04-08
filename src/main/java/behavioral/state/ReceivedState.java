@@ -13,6 +13,5 @@ public class ReceivedState implements PackageState {
 
     @Override
     public void displayStatus() {
-
     }
 }
