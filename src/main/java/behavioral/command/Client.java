@@ -22,21 +22,27 @@ public class Client {
         Stereo stereo = new Stereo();
         RemoteControl rm = new RemoteControl();
         rm.setCommand(new TurnOnCommand(tv));
+        System.out.println("***************************** Press TV On *************************");
         rm.pressButton();
 
+        System.out.println("***************************** Press TV Off *************************");
         rm.setCommand(new TurnOffCommand(tv));
         rm.pressButton();
 
+        System.out.println("***************************** Press Channel Change *************************");
         rm.setCommand(new ChannelChangeCommand(tv));
         rm.pressButton();
 
 
+        System.out.println("***************************** Press Stereo On *************************");
         rm.setCommand(new TurnOnCommand(stereo));
         rm.pressButton();
 
+        System.out.println("***************************** Press Stereo Off *************************");
         rm.setCommand(new TurnOffCommand(stereo));
         rm.pressButton();
 
+        System.out.println("***************************** Press Adjust Frequency *************************");
         rm.setCommand(new AdjustFrequencyCommand(stereo));
         rm.pressButton();
     }
