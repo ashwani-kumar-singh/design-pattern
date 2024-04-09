@@ -12,6 +12,8 @@ import behavioral.command.reciever.TV;
  * <p>
  * It decouples the sender (client or invoker) from the receiver (object performing the operation),
  * providing flexibility and extensibility.
+ *
+ * @link: https://www.geeksforgeeks.org/command-pattern/
  */
 public class Client {
 
