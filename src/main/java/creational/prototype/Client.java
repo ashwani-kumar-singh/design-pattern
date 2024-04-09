@@ -10,7 +10,7 @@ package creational.prototype;
  * the object itself.
  * 2. Sometimes you only know the interface that the object follows, but not its concrete class.
  */
-public class Application {
+public class Client {
 
 
     public static void main(String[] args) {

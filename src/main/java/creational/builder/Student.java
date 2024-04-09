@@ -5,11 +5,11 @@ import creational.builder.builder.StudentBuilder;
 import java.util.List;
 
 public class Student {
-    private int rollNo;
-    private int age;
-    private String name;
-    private String fatherName;
-    private String motherName;
+    private final int rollNo;
+    private final int age;
+    private final String name;
+    private final String fatherName;
+    private final String motherName;
     List<String> subjects;
 
     public Student(StudentBuilder builder) {

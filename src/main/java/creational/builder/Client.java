@@ -10,7 +10,7 @@ import creational.builder.builder.MBAStudentBuilder;
  * The pattern allows you
  * to produce different types and representations of an object using the same construction code.
  */
-public class Application {
+public class Client {
     public static void main(String[] args) {
         Director director = new Director(new MBAStudentBuilder());
         System.out.println(director.buildStudent());

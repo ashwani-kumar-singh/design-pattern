@@ -45,7 +45,7 @@ nbdist/
 
 # Log file
 *.log
-config/application-default.properties
+config/client-default.properties
 gradle/
 gradlew
 gradlew.bat

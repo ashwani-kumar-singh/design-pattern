@@ -7,12 +7,12 @@ import creational.abstractfactory.factory.WesternEuropeCarFactory;
 import creational.abstractfactory.specification.CarSpecification;
 
 // https://www.geeksforgeeks.org/abstract-factory-pattern/
-public class Application {
+public class Client {
 
     private final Car car;
     private final CarSpecification specification;
 
-    public Application(CarFactory carFactory){
+    public Client(CarFactory carFactory){
         car = carFactory.getCar();
         specification = carFactory.getCarSpecification();
     }
@@ -26,13 +26,13 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        Application application = new Application(new WesternEuropeCarFactory());
-        application.getCar().assemble();
-        application.getSpecification().display();
+        Client client = new Client(new WesternEuropeCarFactory());
+        client.getCar().assemble();
+        client.getSpecification().display();
 
-        application = new Application(new NorthAmericaCarFactory());
-        application.getCar().assemble();
-        application.getSpecification().display();
+        client = new Client(new NorthAmericaCarFactory());
+        client.getCar().assemble();
+        client.getSpecification().display();
     }
 
 }

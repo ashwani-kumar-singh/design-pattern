@@ -6,7 +6,7 @@ package behavioral.template;
  *
  * @Link: https://www.geeksforgeeks.org/template-method-design-pattern/
  */
-public class Application {
+public class Client {
     public static void main(String[] args) {
         PaymentFlow paymentFlow = new IndividualPaymentFlow();
         paymentFlow.transferMoney(1000000);

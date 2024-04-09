@@ -6,7 +6,7 @@ package behavioral.state;
  * <p>
  * State Design Pattern: Allows an object to alter it's behaviour when it's internal state changes
  */
-public class Application {
+public class Client {
 
     public static void main(String[] args) {
         Package pkg = new Package();

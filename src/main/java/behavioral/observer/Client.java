@@ -8,7 +8,7 @@ import behavioral.observer.observable.WeatherStation;
  *
  * @link: https://www.geeksforgeeks.org/observer-pattern-set-1-introduction/
  */
-public class Application {
+public class Client {
 
     public static void main(String[] args) {
         WeatherStation weatherStation = new WeatherStation();

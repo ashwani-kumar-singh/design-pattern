@@ -9,7 +9,7 @@ import java.util.List;
  * <p>
  * https://www.geeksforgeeks.org/strategy-pattern-set-1/
  */
-public class Application {
+public class Client {
     public static void main(String[] args) {
         List<Item> items = new ArrayList<>();
         items.add(new Item("Soap", 4, 30));

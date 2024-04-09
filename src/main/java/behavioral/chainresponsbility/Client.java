@@ -7,7 +7,7 @@ package behavioral.chainresponsbility;
  *
  * @link: https://www.geeksforgeeks.org/chain-responsibility-design-pattern/
  */
-public class Application {
+public class Client {
     public static void main(String[] args) {
         SupportHandler level1Handler = new Level1SupportHandler();
         SupportHandler level2Handler = new Level2SupportHandler();

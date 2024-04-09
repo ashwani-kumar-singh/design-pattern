@@ -9,7 +9,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.stream.IntStream;
 
 // https://refactoring.guru/design-patterns/singleton
-public class Application {
+public class Client {
 
     public static void main(String[] args) {
         System.out.println("Eager Initialization: " + EagerDBConnection.getInstance().hashCode());
