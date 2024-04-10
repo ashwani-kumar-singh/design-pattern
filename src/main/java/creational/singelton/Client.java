@@ -8,7 +8,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.stream.IntStream;
 
-// https://refactoring.guru/design-patterns/singleton
+/**
+ * Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a
+ * global access point to this instance.
+ *
+ * @link: <a href="https://refactoring.guru/design-patterns/singleton">...</a>
+ */
+//
 public class Client {
 
     public static void main(String[] args) {

@@ -3,7 +3,8 @@ package behavioral.mediator;
 /**
  * Mediator Design Pattern: It encourages lose coupling by keeping objects from referring to each other
  * explicitly and allows them to communicate each other through a mediator object.
- * @link: https://www.geeksforgeeks.org/mediator-design-pattern/
+ *
+ * @link: <a href="https://www.geeksforgeeks.org/mediator-design-pattern/">...</a>
  *
  */
 public class Client {

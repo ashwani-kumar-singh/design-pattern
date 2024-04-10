@@ -1,5 +1,8 @@
-package behavioral.iterator;
+package behavioral.iterator.aggregator;
 
+import behavioral.iterator.Employee;
+import behavioral.iterator.EmployeeIterator;
+import behavioral.iterator.Iterator;
 import behavioral.iterator.aggregator.Aggregate;
 
 import java.util.List;

@@ -2,8 +2,8 @@ package behavioral.interpreter;
 
 public class AdditionExpression implements Expression {
 
-    private Expression left;
-    private Expression right;
+    private final Expression left;
+    private final Expression right;
 
     public AdditionExpression(Expression left, Expression right) {
         this.left = left;

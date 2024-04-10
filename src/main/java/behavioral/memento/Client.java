@@ -1,5 +1,12 @@
 package behavioral.memento;
 
+/**
+ * Memento Design Pattern: It is a behavioral pattern that is used to capture and restore an
+ * object’s internal state without violating encapsulation. It allows you to save and restore
+ * the state of an object to a previous state, providing the ability to undo or roll back changes
+ * made to the object.
+ * @link: <a href="https://www.geeksforgeeks.org/memento-design-pattern/">...</a>
+ */
 public class Client {
 
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ package behavioral.chainresponsbility;
  * Each handler in the chain decides either to process the request or to pass it along the chain
  * to the next handler.
  *
- * @link: https://www.geeksforgeeks.org/chain-responsibility-design-pattern/
+ * @link: <a href="https://www.geeksforgeeks.org/chain-responsibility-design-pattern/">...</a>
  */
 public class Client {
     public static void main(String[] args) {

@@ -6,7 +6,7 @@ import behavioral.observer.observable.WeatherStation;
  * Observer Design Pattern: In this object(Observable) maintains list of it's dependent (observers)
  * and notifies them of any changes in state. It's kind of subscription mechanism
  *
- * @link: https://www.geeksforgeeks.org/observer-pattern-set-1-introduction/
+ * @link: <a href="https://www.geeksforgeeks.org/observer-pattern-set-1-introduction/">...</a>
  */
 public class Client {
 

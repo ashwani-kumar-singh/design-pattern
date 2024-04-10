@@ -1,17 +1,17 @@
 package creational.prototype;
 
-// - https://refactoring.guru/design-patterns/prototype
 /**
  * Prototype is a creational design pattern that lets you copy existing objects without
  * making your code dependent on their classes.
  *
- * Problem :
+ * Problem:
  * 1. some of the object’s fields and getter method may be private and not visible from outside of
  * the object itself.
  * 2. Sometimes you only know the interface that the object follows, but not its concrete class.
+ *
+ * @link: <a href="https://refactoring.guru/design-patterns/prototype">...</a>
  */
 public class Client {
-
 
     public static void main(String[] args) {
         StudentProtoType studentProtoType = new StudentProtoType(12, "01-01-2000", "Alex");

@@ -3,6 +3,8 @@ package behavioral.interpreter;
 /**
  * Interpreter Design Pattern: It facilitates the interpretation and evaluation of expressions
  * or language grammars.
+ *
+ * @link: <a href="https://www.geeksforgeeks.org/interpreter-design-pattern/">...</a>
  */
 public class Client {
     public static void main(String[] args) {

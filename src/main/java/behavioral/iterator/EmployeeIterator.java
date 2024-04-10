@@ -5,7 +5,7 @@ import java.util.NoSuchElementException;
 
 public class EmployeeIterator implements Iterator<Employee> {
     private int currIndex = 0;
-    private List<Employee> employees;
+    private final List<Employee> employees;
 
     public EmployeeIterator(List<Employee> employees) {
         this.employees = employees;

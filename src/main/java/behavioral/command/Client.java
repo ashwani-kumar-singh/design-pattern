@@ -13,7 +13,7 @@ import behavioral.command.reciever.TV;
  * It decouples the sender (client or invoker) from the receiver (object performing the operation),
  * providing flexibility and extensibility.
  *
- * @link: https://www.geeksforgeeks.org/command-pattern/
+ * @link: <a href="https://www.geeksforgeeks.org/command-pattern/">...</a>
  */
 public class Client {
 

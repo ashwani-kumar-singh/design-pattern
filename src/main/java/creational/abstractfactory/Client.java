@@ -6,7 +6,17 @@ import creational.abstractfactory.factory.NorthAmericaCarFactory;
 import creational.abstractfactory.factory.WesternEuropeCarFactory;
 import creational.abstractfactory.specification.CarSpecification;
 
-// https://www.geeksforgeeks.org/abstract-factory-pattern/
+/**
+ * Abstract Factory : provides an interface for creating families of related or dependent objects
+ * without specifying their concrete classes, in simpler terms the Abstract Factory Pattern is a way
+ * of organizing how you create groups of things that are related to each other.
+ * Abstract Factory pattern is almost similar to Factory Pattern and is considered as another layer
+ * of abstraction over factory pattern.
+ * Abstract Factory patterns work around a super-factory which creates other factories.
+ *
+ * @link: <a href="https://www.geeksforgeeks.org/abstract-factory-pattern/">...</a>
+ */
+
 public class Client {
 
     private final Car car;

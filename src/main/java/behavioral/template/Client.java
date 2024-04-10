@@ -1,10 +1,10 @@
 package behavioral.template;
 
 /**
- * Template Design Pattern: defines the skeleton of an algorithm in a superclass but allows subclasses
- * to override specific steps of the algorithm without changing its structure.
+ * Template Design Pattern: It defines the skeleton of an algorithm in a superclass but allows
+ * subclasses to override specific steps of the algorithm without changing its structure.
  *
- * @Link: https://www.geeksforgeeks.org/template-method-design-pattern/
+ * @link: <a href="https://www.geeksforgeeks.org/template-method-design-pattern/">...</a>
  */
 public class Client {
     public static void main(String[] args) {

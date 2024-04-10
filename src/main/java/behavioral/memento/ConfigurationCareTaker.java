@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ConfigurationCareTaker {
-    private List<ConfigurationMemento> history = new ArrayList<>();
+    private final List<ConfigurationMemento> history = new ArrayList<>();
 
     public void addMemento(ConfigurationMemento mementoConfig) {
         history.add(mementoConfig);

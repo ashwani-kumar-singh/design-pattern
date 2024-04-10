@@ -6,10 +6,10 @@ import behavioral.visitor.room.Room;
 import behavioral.visitor.room.SingleRoom;
 
 /**
- * Visitor Design Pattern: The purpose of a Visitor pattern is to define a new operation without introducing the modifications to
- * an existing object structure. It encourages open/close principle.
+ * Visitor Design Pattern: The purpose of a Visitor pattern is to define a new operation without
+ * introducing the modifications to an existing object structure. It encourages open/close principle.
  *
- * @link: https://www.baeldung.com/java-visitor-pattern
+ * @link: <a href="https://www.baeldung.com/java-visitor-pattern">...</a>
  */
 public class Client {
     public static void main(String[] args) {

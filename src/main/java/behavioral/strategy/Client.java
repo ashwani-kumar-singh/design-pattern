@@ -7,7 +7,7 @@ import java.util.List;
  * Strategy Design Pattern: It helps you to define a family of algorithm and we can select the algorithm
  * at run time depending on the situation
  * <p>
- * https://www.geeksforgeeks.org/strategy-pattern-set-1/
+ * <a href="https://www.geeksforgeeks.org/strategy-pattern-set-1/">...</a>
  */
 public class Client {
     public static void main(String[] args) {

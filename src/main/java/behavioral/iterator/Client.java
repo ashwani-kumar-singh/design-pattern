@@ -1,5 +1,7 @@
 package behavioral.iterator;
 
+import behavioral.iterator.aggregator.Company;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,7 @@ import java.util.List;
  * Iterator: It provides a way to access the elements of an aggregate object (such as a list or
  * collection) sequentially without exposing its underlying representation.
  *
- * @link: https://www.geeksforgeeks.org/iterator-pattern/
+ * @link: <a href="https://www.geeksforgeeks.org/iterator-pattern/">...</a>
  */
 public class Client {
     public static void main(String[] args) {

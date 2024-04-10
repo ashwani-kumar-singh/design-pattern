@@ -2,7 +2,14 @@ package creational.factory;
 
 import creational.factory.shape.Shape;
 
-// https://www.geeksforgeeks.org/factory-method-for-designing-pattern/
+/**
+ * Factory Design Pattern:  to provide an interface for creating objects in a superclass, while allowing subclasses to
+ * alter the type of objects that will be created.
+ * This enables flexibility, extensibility, and maintainability in the codebase by allowing subclasses
+ * to define their own implementation of the factory method to create specific types of objects.
+ *
+ * @link: <a href="https://www.geeksforgeeks.org/factory-method-for-designing-pattern/">...</a>
+ */
 public class Client {
     private final Shape shape;
 

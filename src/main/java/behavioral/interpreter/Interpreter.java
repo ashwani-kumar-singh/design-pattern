@@ -16,9 +16,8 @@ public class Interpreter {
     }
 
     private Expression buildExpressionTree(String expression) {
-        // Logic to parse expression and create expression tree
-        // For simplicity, assume the expression is already parsed
-        // and represented as an expression tree
+        /* Logic to parse expression and create expression tree, For simplicity,
+          assume the expression is already parsed and represented as an expression tree */
         return new AdditionExpression(
                 new NumberExpression(2),
                 new MultiplicationExpression(
