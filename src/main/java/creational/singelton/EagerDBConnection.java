@@ -2,7 +2,7 @@ package creational.singelton;
 
 public class EagerDBConnection {
 
-    private static EagerDBConnection INSTANCE = new EagerDBConnection();
+    private static final EagerDBConnection INSTANCE = new EagerDBConnection();
 
     private EagerDBConnection(){}
 

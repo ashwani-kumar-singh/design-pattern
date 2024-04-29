@@ -8,21 +8,20 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RoboticFactory {
-    static private final Map<RobotType, IRobot> roboticCache = new HashMap<>();
+    static private final Map<RobotType, IRobot> ROBOTIC_CACHE = new HashMap<>();
 
     static IRobot createRobot(RobotType robotType) {
-        if (!roboticCache.containsKey(robotType)) {
+        if (!ROBOTIC_CACHE.containsKey(robotType)) {
             if (RobotType.HUMANOID.equals(robotType)) {
-                roboticCache.put(robotType, new HumanoidRobot(robotType, "large string object"));
+                ROBOTIC_CACHE.put(robotType, new HumanoidRobot("large string object"));
             }
-
             if (RobotType.ROBOTIC_DOG.equals(robotType)) {
-                roboticCache.put(robotType, new DogRobot(robotType, "large string object"));
+                ROBOTIC_CACHE.put(robotType, new DogRobot("large string object"));
             }
         } else {
             System.out.println(robotType + " found in the cache");
         }
-        return roboticCache.get(robotType);
+        return ROBOTIC_CACHE.get(robotType);
     }
 
 }

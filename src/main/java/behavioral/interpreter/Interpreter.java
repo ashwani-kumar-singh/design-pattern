@@ -1,5 +1,10 @@
 package behavioral.interpreter;
 
+import behavioral.interpreter.expression.AdditionExpression;
+import behavioral.interpreter.expression.Expression;
+import behavioral.interpreter.expression.MultiplicationExpression;
+import behavioral.interpreter.expression.NumberExpression;
+
 public class Interpreter {
     private final Context context;
 

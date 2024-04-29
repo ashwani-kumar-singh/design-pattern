@@ -1,6 +1,9 @@
 package behavioral.chainresponsbility;
 
 /**
+ * Behavioral Design Pattern: It guides how different object communicate with each other effectively and
+ * distribute task efficiently, making software flexible and easy to maintain.
+ *
  * Chain Responsibility Principle: It allows an object to pass a request along a chain of handlers.
  * Each handler in the chain decides either to process the request or to pass it along the chain
  * to the next handler.

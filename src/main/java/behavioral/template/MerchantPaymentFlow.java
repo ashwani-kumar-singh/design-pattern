@@ -15,4 +15,5 @@ public class MerchantPaymentFlow extends PaymentFlow {
         else
             return (amount / 100) * 0.35f;
     }
+
 }

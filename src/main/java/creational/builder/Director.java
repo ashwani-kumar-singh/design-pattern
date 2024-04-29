@@ -5,7 +5,7 @@ import creational.builder.builder.MBAStudentBuilder;
 import creational.builder.builder.StudentBuilder;
 
 public class Director {
-    StudentBuilder studentBuilder;
+    private final StudentBuilder studentBuilder;
 
     public Director(StudentBuilder studentBuilder) {
         this.studentBuilder = studentBuilder;

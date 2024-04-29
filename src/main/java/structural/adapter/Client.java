@@ -1,6 +1,9 @@
 package structural.adapter;
 
 /**
+ *  Structural Design Pattern: This provides a way to combine or arrange different classes or objects
+ *  to form a complex or bigger structure to solve a particular requirement.
+ *
  * Adapter Design Pattern: It acts as a bridge between two incompatible interfaces, making them
  * work together. This pattern involves a single class, known as the adapter, which is
  * responsible for joining functionalities of independent or incompatible interfaces.

@@ -1,9 +1,6 @@
 package structural.decorator;
 
 /**
- * Structural Design Pattern: This provides a way to combine or arrange different classes or objects
- * to form a complex or bigger structure to solve a particular requirement.
- *
  * Decorator Design Pattern: It allows behavior to be added to individual objects, dynamically,
  * without affecting the behavior of other objects from the same class. This pattern is useful when
  * you need to add functionality to objects in a flexible and reusable way.

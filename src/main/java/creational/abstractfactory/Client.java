@@ -22,7 +22,7 @@ public class Client {
     private final Car car;
     private final CarSpecification specification;
 
-    public Client(CarFactory carFactory){
+    public Client(CarFactory carFactory) {
         car = carFactory.getCar();
         specification = carFactory.getCarSpecification();
     }

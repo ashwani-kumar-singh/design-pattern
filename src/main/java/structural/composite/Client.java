@@ -11,14 +11,17 @@ package structural.composite;
 public class Client {
     public static void main(String[] args) {
         Directory parentDir = new Directory();
-        parentDir.add(new File("file_1.jpg"));
+        File file = new File("file_1.jpg");
+        parentDir.add(file);
 
         Directory childDir = new Directory();
         childDir.add(new File("file_2.txt"));
         childDir.add(new File("file_3.png"));
 
         parentDir.add(childDir);
-
+        System.out.println("************************** list file *****************************");
+        file.ls();
+        System.out.println("************************** list directory ************************");
         parentDir.ls();
     }
 }

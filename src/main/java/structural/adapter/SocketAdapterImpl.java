@@ -9,14 +9,14 @@ public class SocketAdapterImpl extends Socket implements SocketAdapter {
     @Override
     public Volt get12Volt() {
         Volt volt = getVolt();
-        volt.setVolt(12);
+        volt.setVolt(volt.getVolt()/10);
         return volt;
     }
 
     @Override
     public Volt get3Volt() {
         Volt volt = getVolt();
-        volt.setVolt(3);
+        volt.setVolt(volt.getVolt()/40);
         return volt;
     }
 }

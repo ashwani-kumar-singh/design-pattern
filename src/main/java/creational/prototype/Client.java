@@ -5,7 +5,7 @@ package creational.prototype;
  * making your code dependent on their classes.
  *
  * Problem:
- * 1. some of the object’s fields and getter method may be private and not visible from outside of
+ * 1. some of the object’s fields and getter method may be private and not visible from outside
  * the object itself.
  * 2. Sometimes you only know the interface that the object follows, but not its concrete class.
  *

@@ -14,4 +14,5 @@ public class Client {
         paymentFlow = new MerchantPaymentFlow();
         paymentFlow.transferMoney(1000000);
     }
+
 }
