@@ -12,6 +12,15 @@ import java.util.stream.IntStream;
  * Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a
  * global access point to this instance.
  *
+ * Different ways of creating Singleton Class :
+ * -Eager Initialization
+ * -Lazy Initialization
+ * -Synchronization Block
+ * -Double Check Lock (there is a memory issue, resolved through Volatile instance variable)
+ * - Bill Pugh Solution
+ * - Enum Singleton - As we know , in Enum , all constructors are private only one object
+ *  of enum is created per JVM . So by default enum are singleton only
+ *
  * @link: <a href="https://refactoring.guru/design-patterns/singleton">...</a>
  */
 //

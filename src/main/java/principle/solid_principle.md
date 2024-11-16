@@ -116,7 +116,8 @@ SOLID principles of OOPS-
          openDoor() {}
     }
 
-5.Dependency Inversion Principle: Class should depend on interface rather than concrete class and both should be depending on abstract.
+5.Dependency Inversion Principle: Class should depend on interface rather than concrete class and both should be 
+depending on abstract.
   Problem: 
   interface Computer {}
   interface Keyboard {}
